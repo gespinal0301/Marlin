@@ -137,7 +137,7 @@
 //#define BLUETOOTH
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "GE_DD_802-3" // GE
+#define CUSTOM_MACHINE_NAME "GE_DD_803_1125-3" // GE
 //#define CONFIGURABLE_MACHINE_NAME // Add G-code M550 to set/report the machine name
 
 // Printer's unique ID, used by some programs to differentiate between machines.
@@ -1973,14 +1973,14 @@
 
 // The size of the printable area
 #define X_BED_SIZE 220 // GE
-#define Y_BED_SIZE 220 // GE
+#define Y_BED_SIZE 199 // GE
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
-#define Y_MIN_POS -28 // GE
+#define Y_MIN_POS -31 // GE
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
-#define Y_MAX_POS Y_BED_SIZE
+#define Y_MAX_POS Y_BED_SIZE 
 #define Z_MAX_POS 250
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
