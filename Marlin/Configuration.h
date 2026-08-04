@@ -1731,7 +1731,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -30, -41, -2.61 } // GE // (mm) X, Y, Z distance from Nozzle tip to Probe trigger-point
+#define NOZZLE_TO_PROBE_OFFSET { -30, -41, -2.65 } // GE // (mm) X, Y, Z distance from Nozzle tip to Probe trigger-point
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
@@ -2197,7 +2197,7 @@
  */
 //#define AUTO_BED_LEVELING_3POINT
 //#define AUTO_BED_LEVELING_LINEAR
-#define AUTO_BED_LEVELING_BILINEAR 
+//#define AUTO_BED_LEVELING_BILINEAR 
 #define AUTO_BED_LEVELING_UBL // GE
 //#define MESH_BED_LEVELING
 
